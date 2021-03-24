@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background:#B8860B url(../ima/fundo.png) repeat-x; 
+}
+
+#container{
+    width: 850px;
+    margin: 0 auto;
+    
+}
+
+#topo{
+    height: 130px;
+    padding-top: 18px;
+    
+}
+#topo img{
+    float: right;
+    
+}
+.clear{
+    clear: both;
+}
+
+.logo{
+    width: 230px;
+    height: 67px;
+    background: url(../ima/portbra.jpg) no-repeat center;
+    text-indent: -3000px;
+}
+/*topo*******************************************topo*************************************************/
+
+/*barra de navegação********************************navegação****************************************/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    margin-top: 25px;
+    background: #228B22;
+    float: left;
+    border-radius: 5px;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.7em 1.2em;
+    line-height: 1.5em;
+    color: #FFD700;
+    border-radius: 10px;
+}
+
+#topo ul a:hover{
+    background: #EE0000;
+    cursor: pointer;
+}
+/*************CONTEUDO************************************************************CONTEUDO***************************/
+
+#conteudo{
+    background: #4682B4;
+    margin-top: 100px;
+}
+
+#primario{
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 230px;
+    background: red;
+
+}
+#tres-colunas #primario{
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 230px;
+    background: red;
+}
+
+#duas-colunas #primario{
+    width: 600px;
+    float: left;
+    margin: 0 0 20px 230px;
+    background: red;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.9em;
+    padding: 3px;
+    background: #006400;
+}
+.caixa-conteudo2{
+    margin-top: 10px;
+}
+
+#secundario{
+    width: 300px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background-color: #228B22;
+
+}
+/**************LATERAL****************************************LATERAL**************************************/
+
+#lateral ul a {
+    font-size: 1.0em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #006400;
+
+}
+
+#lateral ul a:hover{
+    background: #FF0000 url(../ima/marcador.png) no-repeat left center;
+    padding-left:  30px;
+    color: #006400;
+    cursor: pointer;
+}
+
+label{
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+input{
+    padding: 3px;
+    width: 170px;
+}
+input.submit{
+    width: 80px;
+    color:#fff;
+    margin: 10px 0 0 0;
+    background-color: #006400;
+    border: 2px solid #870529;
+    padding: 10px;
+}
+
+#lateral{        
+    width: 200px;
+    float: left;
+    margin: 0 0 20px -830px;
+    background: #FF0000;
+}
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: red;
+}
+.caixa h2{
+    font-size: 1.1em;
+    background: #006600;
+    color: white;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #FFFF00;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lista-noticias li{
+    padding:2px;
+    border-bottom: 2px solid white;
+    height: 65px;
+}
+
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a{
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+#lista-noticias li a p{
+    font-size: 0.9em;
+}
+
+#lista-noticias li:hover{
+    background: #FF0000;
+    cursor: pointer;
+}
+
+/*****************************fomrulario******************fale conosco*************************************************/
+
+
+
+/************RODAPÉ*******************************************************RODAPÉ*********************************/
+
+#container-rodape{
+    background: #006400;
+    padding: 20px;
+}
+#rodape{
+    text-align: center;
+}
